@@ -7,11 +7,9 @@ var runningSum = function(nums) {
    for(let i=0; i < nums.length; i++){
        if(i === 0){
            arr.push(nums[0]);
-           
        }else{
          arr.push(arr[i-1]+ nums[i]);   
        }
    }
-
    return arr;
 };
